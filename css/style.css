@@ -1,1 +1,73 @@
+.site-header{
+
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+
+nav a{
+
+    text-decoration: none;
+    margin: 0px 10px;
+    color:black
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(117, 109, 100);
+}
+
+.hero-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hero-banner{
+    background-color: pink;
+}
+
+.hero-sidebar{
+    background-color: rgb(214, 142, 154);
+}
+
+.cards-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+
+.card{
+    background-color: rgb(209, 190, 166);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-card {
+    margin-top: auto;
+}
+
+
+
+
+.site-footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.site-footer p a {
+    text-decoration: none;
+    color:black
+    
+}
+
 
