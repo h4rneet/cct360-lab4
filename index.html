@@ -12,7 +12,7 @@
 
 <body>
 
-    <header>
+    <header class="site-header">
         <h1> Creative Workshop and Event Directory </h1>
 
         <nav> 
@@ -25,37 +25,52 @@
 
     
 
-    <main> 
-        <section> <!--one parent section for both banner and side-bar 
+    <main class="container"> 
+        <section class="hero-grid"> <!--one parent section for both banner and side-bar 
             since we will use grid on them later -->
 
-            <article> 
-                <h2> Spotlight Banner </h2>
+            <article class="hero-banner"> 
+                <h2>Creative Media Workshops</h2>
+                <p>Explore hands-on UI/UX and web design labs built using hybrid CSS Grid and Flexbox.</p>
+                <button class="btn-primary">Browse Schedule</button>
+
             </article>
 
-            <aside>
-                <h2> Sidebar </h2>
+            <aside class="hero-sidebar">
+                <h2> Stats/Quick Links </h2>
+                <p> Next Session: Oct 10 - 3:00 PM </p>
             </aside>
     
         </section>
 
 
-        <section> 
-            <article> 
-                <h2> Card 1 </h2>
+        <section class="cards-gallery"> 
+            <article class="card"> 
+                <img src="placeholderimg.png" alt="placeholder img" width="200px"> 
+                <h2> Workshop 1 </h2>
+                <p> lorem ipsum lorem ipsum lorem ipsum lorem ipsum  </p>
+                <button class="btn-card"> Register </button>
             </article>
 
-            <article> 
-                <h2> Card 2 </h2>
+            <article class="card"> 
+                <img src="placeholderimg.png" alt="placeholder img" width="200px"> 
+                <h2> Workshop 2 </h2>
+                <p> lorem ipsum lorem ipsum lorem ipsum lorem ipsum  </p>
+                <button class="btn-card"> Register </button>
+
             </article>
 
-            <article> 
-                <h2> Card 3 </h2>
+            <article class="card"> 
+                <img src="placeholderimg.png" alt="placeholder img" width="200px"> 
+                <h2> Workshop 3 </h2>
+                <p> lorem ipsum lorem ipsum lorem ipsum lorem ipsum  </p>
+                <button class="btn-card"> Register </button>
+
             </article>
         </section>
     </main>
 
-    <footer> 
+    <footer class="site-footer"> 
         <p> © 2026 CCT360 Hub </p>
         <p> <a href="#"> Socials </a></p>
     </footer>
